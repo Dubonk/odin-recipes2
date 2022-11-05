@@ -2,6 +2,7 @@ body {
     text-align: center;
     background-color: rgb(192, 166, 118);
     color: rgb(51, 59, 63);
+    font-family: 'Roboto', sans-serif;
 }
 ul {
     display: inline-block;

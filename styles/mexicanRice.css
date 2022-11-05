@@ -1,0 +1,31 @@
+body {  
+    text-align: center;
+    background-color: rgb(241, 177, 104);
+    color: rgb(138, 10, 80);
+}
+
+ul {
+    display: inline-block;
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+}
+
+img {
+    border-radius: 8px;
+    height: auto;
+    width: 400px;
+}
+
+a {
+    font-size: large;
+    text-decoration: none;
+    color: rgb(77, 56, 56);
+}
+
+a:hover {
+    font-size: x-large;
+
+}

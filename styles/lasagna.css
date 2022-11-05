@@ -1,0 +1,28 @@
+body {  
+    text-align: center;
+    background-color: rgb(192, 166, 118);
+    color: rgb(51, 59, 63);
+}
+ul {
+    display: inline-block;
+    width: 800px;
+    text-align: left;
+}
+ol {
+    display: inline-block;
+    text-align: left;
+}
+img {
+    border-radius: 8px;
+    height: auto;
+    width: 400px;
+}
+a {
+    font-size: large;
+    text-decoration: none;
+    color: rgb(77, 56, 56);
+}
+a:hover {
+    font-size: x-large;
+
+}

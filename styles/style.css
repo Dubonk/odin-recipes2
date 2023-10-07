@@ -1,27 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
-    text-align: center;
-    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
     background-color: rgb(104, 140, 187);
     font-family: 'Roboto', sans-serif;
 }
 
-ul {
-    list-style: none;
+#cardContainer {
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 50px;
+    padding: 20px;
+    align-self: center;
+    width: 500px;
+    background-color:  #a2b9bc;
+    box-shadow: -2px 2px 5px rgb(48, 48, 48);
 }
 
-li {
+.header {
+    background-color: antiquewhite;
+    width: 100%;
+}
+.title {
+    font-size: xx-large;
+    font-weight: 900;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.recipeContainer {
     display: flex;
     flex-direction: column;
+    height: 90%;
     align-items: center;
-    margin: 50px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.recipe {
+    border-bottom: 1px solid black;
 }
 
 a {
     display: flex;
     flex-direction: column;
-    align-items: center;
     text-decoration: none;
-    color: rgb(58, 48, 48);
+    color: rgb(39, 19, 19);
 }
 
 img {
@@ -29,9 +59,28 @@ img {
     width: 250px;
     border-radius: 8px;
     box-shadow: -2px 2px 5px rgb(48, 48, 48);
-    
+    margin-bottom: 18px;
+    margin-top: 15px;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
 
 a:hover {
-    transform: scale(1.1);
+    color: rgb(161, 118, 207);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: beige;
+    text-align: center;
+}
+
+#githubLink {
+    display: contents;
 }

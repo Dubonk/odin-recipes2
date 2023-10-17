@@ -1,8 +1,20 @@
 body {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    background-color: rgb(241, 177, 104);
+    background-color: antiquewhite;
     color: rgb(138, 10, 80);
     font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+    width: 980px;
+    background-color: rgb(241, 177, 104);
+    border-radius: 8px;
+    box-shadow: -2px 2px 5px rgb(48, 48, 48);
+    text-align: center;
 }
 
 ul {
@@ -12,6 +24,16 @@ ul {
 ol {
     display: inline-block;
     text-align: left;
+}
+
+.footer {
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(241, 177, 104);
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 img {
@@ -24,10 +46,9 @@ img {
 a {
     font-size: large;
     text-decoration: none;
-    color: rgb(77, 56, 56);
+    color: black;
 }
 
 a:hover {
-    font-size: x-large;
-
+    color: tomato;
 }

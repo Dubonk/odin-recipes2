@@ -24,6 +24,17 @@ ol {
     display: inline-block;
     text-align: left;
 }
+
+.footer {
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(192, 166, 118);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
 img {
     border-radius: 8px;
     height: auto;
@@ -33,7 +44,7 @@ img {
 a {
     font-size: large;
     text-decoration: none;
-    color: rgb(77, 56, 56);
+    color: black;
 }
 a:hover {
     color: tomato;

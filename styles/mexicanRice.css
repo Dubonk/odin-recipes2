@@ -18,6 +18,7 @@ img {
     border-radius: 8px;
     height: auto;
     width: 400px;
+    box-shadow: -2px 2px 5px rgb(48, 48, 48);
 }
 
 a {

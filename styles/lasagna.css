@@ -1,9 +1,20 @@
 body {  
-    text-align: center;
-    background-color: rgb(192, 166, 118);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
     color: rgb(51, 59, 63);
     font-family: 'Roboto', sans-serif;
 }
+.container {
+    margin-top: 50px;
+    width: 980px;
+    background-color: rgb(192, 166, 118);
+    border-radius: 8px;
+    box-shadow: -2px 2px 5px rgb(48, 48, 48);
+    text-align: center;
+}
+
 ul {
     display: inline-block;
     width: 800px;
@@ -17,6 +28,7 @@ img {
     border-radius: 8px;
     height: auto;
     width: 400px;
+    box-shadow: -2px 2px 5px rgb(48, 48, 48);
 }
 a {
     font-size: large;
@@ -24,6 +36,5 @@ a {
     color: rgb(77, 56, 56);
 }
 a:hover {
-    font-size: x-large;
-
+    color: tomato;
 }

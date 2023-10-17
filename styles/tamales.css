@@ -48,5 +48,5 @@ a {
     color: rgb(77, 56, 56);
 }
 a:hover {
-    font-size: x-large;
+    color: tomato;
 }

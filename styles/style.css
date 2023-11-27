@@ -7,6 +7,7 @@ body {
     margin: 0;
     background-color: rgb(91, 136, 187);
     font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
 }
 
 #cardContainer {
@@ -68,7 +69,7 @@ img:hover {
 }
 
 a:hover {
-    color: rgb(161, 118, 207);
+    color: rgb(228, 224, 233);
 }
 
 .footer {
